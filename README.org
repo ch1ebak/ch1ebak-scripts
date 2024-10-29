@@ -1,0 +1,9 @@
+#+TITLE: ch1ebak's scripts
+
+A collection of my very simple scripts. I might (or not) add more in the future.
+
+Scripts:
+- theme switcher (tokyo night/spacegray)
+- simple cleanup
+- remove packages i don't use anymore
+
