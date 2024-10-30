@@ -13,7 +13,7 @@ sed -i 's@frame_color\ =\ "#*.*@frame_color\ =\ "#b04b57"@g' /home/$USER/.dotfil
 killall -e dunst & sleep 1; dunstify "Theme switched to Spacegray" &
 
 # neovim
-sed -i "s@colorscheme\ *.*@colorscheme nordic'@g" /home/$USER/.dotfiles/.config/nvim/lua/core/options.lua
+sed -i "s@colorscheme\ *.*@colorscheme nordic'@g" /home/$USER/.dotfiles/.config/nvim/lua/core/colorscheme.lua
 sed -i "s@theme\ =\ *.*@theme\ =\ 'nord',@g" /home/$USER/.dotfiles/.config/nvim/lua/plugins/lualine.lua
 
 # qtile
